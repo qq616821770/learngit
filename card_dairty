@@ -1,0 +1,88 @@
+取卡日志1
+04-06 15:23:28.786 I/WifiSdk (16667): [main] ***[开始连接 Method connect ]ChinaNet,
+04-06 15:23:28.786 D/WifiSdk (16667): [main] removestartOrLoginAppTimeOutRunnable
+04-06 15:23:28.786 I/WifiSdk (16667): [main] ***[initWillConnectInfo(一个参数的方法)]****ChinaNet : 10001 mWillConnectWiFiType: WifiType{name='10001', nickname='北纬', serverUrl='null'} BEI_WEI
+04-06 15:23:28.796 D/WifiSdk (16667): [main] getProvidersName getNetworkCountryIso:cn
+04-06 15:23:28.796 I/WifiSdk (16667): [main] ***[clearInitSetShopAndShareWifiData]ShopUniversalData{ShopId='', ShopUserId='', ApKey='', ApNum=''}
+04-06 15:23:28.796 I/WifiSdk (16667): [main] ***[initWillConnectInfo ]ConnectInfo{wifiType=WifiType{name='10001', nickname='北纬', serverUrl='null'} BEI_WEI, wifiType.name = 10001, appId='10001', ssid='ChinaNet', bssid='38:91:d5:91:26:10'}
+04-06 15:23:28.796 I/WifiSdk (16667): [main] sdkState from [Idle,None]
+04-06 15:23:28.796 I/WifiSdk (16667): [main] sdkState to [StartConnectWifi,None]
+04-06 15:23:28.796 D/WifiSdk (16667): [main] onWifiStateChange: Connecting, None, WifiSdkListenerParams{msg='[connect :]开始连接WiFiChinaNet', url='', ssid='ChinaNet', cardNum='2fdf59f23d2a413c8f5986202768b83c', wifiAppId='10001', bssid='38:91:d5:91:26:10', isPlug='yes', area='cn', shopUniversalData=ShopUniversalData{ShopId='', ShopUserId='', ApKey='', ApNum=''}}
+04-06 15:23:28.796 D/WifiSdk (16667): [main] getCipherType ssid=ChinaNet
+04-06 15:23:28.796 I/WifiSdk (16667): [main] [connectPASupportWiFi :] 开始连接非加密平安支持的WiFi
+04-06 15:23:28.796 I/WifiSdk (16667): [main] ***[连接到最后扫描的结果开始] ConnectInfo{wifiType=WifiType{name='10001', nickname='北纬', serverUrl='null'} BEI_WEI, wifiType.name = 10001, appId='10001', ssid='ChinaNet', bssid='38:91:d5:91:26:10'}
+04-06 15:23:28.796 I/WifiSdk (16667): [main] sdkState from [StartConnectWifi,None]
+04-06 15:23:28.796 I/WifiSdk (16667): [main] sdkState to [StartConnectWifi,ConnectionWaitFindWifi]
+04-06 15:23:28.796 D/WifiSdk (16667): [main] onWifiStateChange: StartGetCardInfo, None, WifiSdkListenerParams{msg='正在获取上网凭证', url='', ssid='ChinaNet', cardNum='2fdf59f23d2a413c8f5986202768b83c', wifiAppId='10001', bssid='38:91:d5:91:26:10', isPlug='yes', area='cn', shopUniversalData=ShopUniversalData{ShopId='', ShopUserId='', ApKey='', ApNum=''}}
+04-06 15:23:28.806 I/WifiSdk (16667): [main] ***[Method prepareGetCard ]ConnectInfo{wifiType=WifiType{name='10001', nickname='北纬', serverUrl='null'} BEI_WEI, wifiType.name = 10001, appId='10001', ssid='ChinaNet', bssid='38:91:d5:91:26:10'}
+04-06 15:23:28.806 I/WifiSdk (16667): [main] 本地取卡成功
+04-06 15:23:28.806 I/WifiSdk (16667): [main] CardInfoManager 获取卡成功CardInfo{wifiType='10001', cardList=[CardDetail{expire=1460098707998, openKey='2fdf59f23d2a413c8f5986202768b83c', openid='2100048500256', cardNum='null', cardPwd='null', timeLen=0, areaCode='null', uid='null', used=0, active=true}
+04-06 15:23:28.806 I/WifiSdk (16667): ]}
+04-06 15:23:28.806 D/WifiSdk (16667): [main] onWifiStateChange: StartConnect, None, WifiSdkListenerParams{msg='取卡成功', url='', ssid='ChinaNet', cardNum='2fdf59f23d2a413c8f5986202768b83c', wifiAppId='10001', bssid='38:91:d5:91:26:10', isPlug='yes', area='cn', shopUniversalData=ShopUniversalData{ShopId='', ShopUserId='', ApKey='', ApNum=''}}
+04-06 15:23:28.806 I/WifiSdk (16667): [main] ***[Method prepareConnectWiFi ] 做WiFi连接钱的准备，针对不同的运营商采取不同策略
+04-06 15:23:28.806 I/WifiSdk (16667): [main] ***[Method prepareConnectWiFi ] 运营商自己做WiFi连接和运营商登录
+04-06 15:23:28.806 I/WifiSdk (16667): [main] sdkState from [StartConnectWifi,ConnectionWaitFindWifi]
+04-06 15:23:28.806 I/WifiSdk (16667): [main] sdkState to [StartConnectWifi,ConnectionWaitWifiConnected]
+04-06 15:23:28.806 I/WifiSdk (16667): [main] ***[开始调用运营商登录鉴权 Method wifiLogin ]ConnectInfo{wifiType=WifiType{name='10001', nickname='北纬', serverUrl='null'} BEI_WEI, wifiType.name = 10001, appId='10001', ssid='ChinaNet', bssid='38:91:d5:91:26:10'}
+04-06 15:23:28.806 D/WifiSdk (16667): [main] currSdkState.detailStateConnectionWaitWifiConnected
+04-06 15:23:28.806 D/WifiSdk (16667): [main] 记录登录开始的埋点 2fdf59f23d2a413c8f5986202768b83c
+04-06 15:23:28.806 D/WifiSdk (16667): [main] onWifiStateChange: StartLogin, None, WifiSdkListenerParams{msg='开始登录运营商', url='', ssid='ChinaNet', cardNum='2fdf59f23d2a413c8f5986202768b83c', wifiAppId='10001', bssid='38:91:d5:91:26:10', isPlug='yes', area='cn', shopUniversalData=ShopUniversalData{ShopId='', ShopUserId='', ApKey='', ApNum=''}}
+04-06 15:23:28.806 I/WifiSdk (16667): [main] sdkState from [StartConnectWifi,ConnectionWaitWifiConnected]
+04-06 15:23:28.816 I/WifiSdk (16667): [main] sdkState to [Connected,ConnectionWifiLogin]
+04-06 15:23:28.816 I/WifiSdk (16667): [main] mWillUsedCardInfo CardInfo{wifiType='10001', cardList=[CardDetail{expire=1460098707998, openKey='2fdf59f23d2a413c8f5986202768b83c', openid='2100048500256', cardNum='null', cardPwd='null', timeLen=0, areaCode='null', uid='null', used=0, active=true}
+04-06 15:23:28.816 I/WifiSdk (16667): ]}
+04-06 15:23:28.816 I/WifiSdk (16667): [main] WifiSdk开始连接运营商北玮网络
+04-06 15:23:28.816 D/WifiSdk (16667): [main] openid: 2100048500256,openkey: 2fdf59f23d2a413c8f5986202768b83c
+04-06 15:23:28.846 I/WifiSdk (16667): [main] ***[调用运营商登录鉴权结束 Method wifiLogin ]36
+04-06 15:23:28.846 D/WifiSdk (16667): [AsyncTask #4] login bw ChinaNet use openId: 2100048500256; openKey: 2fdf59f23d2a413c8f5986202768b83c
+04-06 15:23:28.846 D/WifiSdk (16667): [main] msg.obj:msg.obj:1
+04-06 15:23:28.846 D/WifiSdk (16667): [main] MSG_CONNECTION_STATE_CHANGE:2
+04-06 15:23:29.656 D/WifiSdk (16667): [main] getProvidersName getNetworkCountryIso:cn
+04-06 15:23:29.666 D/WifiSdk (16667): [main] getProvidersName getNetworkCountryIso:cn
+04-06 15:23:29.696 D/WifiSdk (16667): [main] getProvidersName getNetworkCountryIso:cn
+04-06 15:23:29.706 D/WifiSdk (16667): [main] getProvidersName getNetworkCountryIso:cn
+04-06 15:23:29.746 D/WifiSdk (16667): [main] getProvidersName getNetworkCountryIso:cn
+04-06 15:23:29.776 I/WifiSdk (16667): [main] ***[在数据库中检测AP Method checkApByCache]
+04-06 15:23:29.776 D/WifiSdk (16667): [main] onWifiStateChange: WifiScan, None, WifiSdkListenerParams{msg='WiFi扫描', url='', ssid='ChinaNet', cardNum='2fdf59f23d2a413c8f5986202768b83c', wifiAppId='10001', bssid='38:91:d5:91:26:10', isPlug='yes', area='cn', shopUniversalData=ShopUniversalData{ShopId='', ShopUserId='', ApKey='', ApNum=''}}
+04-06 15:23:29.776 I/WifiSdk (16667): [main] =======onReceive======= action android.net.wifi.SCAN_RESULTS errorCode -1
+04-06 15:23:29.816 D/WifiSdk (16667): [main] onWifiStateChange: UpdateListData, None, WifiSdkListenerParams{msg='查询数据库刷新数据', url='', ssid='ChinaNet', cardNum='2fdf59f23d2a413c8f5986202768b83c', wifiAppId='10001', bssid='38:91:d5:91:26:10', isPlug='yes', area='cn', shopUniversalData=ShopUniversalData{ShopId='', ShopUserId='', ApKey='', ApNum=''}}
+04-06 15:23:29.846 I/WifiSdk (16667): [main] checkApByCache 还没到时间 , 剩余 : -30076ms
+04-06 15:23:30.246 D/WifiSdk (16667): [main] msg.obj:msg.obj:2
+04-06 15:23:30.256 D/WifiSdk (16667): [main] MSG_CONNECTION_STATE_CHANGE:2
+04-06 15:23:30.256 D/WifiSdk (16667): [main] ===BaseConnector===onWifiStateChange===
+04-06 15:23:30.256 I/WifiSdk (16667): [main] WifiConnectorListener:StartConnectToAp detailState None
+04-06 15:23:30.256 I/WifiSdk (16667): [main] WifiConnectorListener:params.toString():WifiConnectorListenerParams [msg=北纬正在向运营商请求ip地址, errorCode=2, usedCard=CardDetail{expire=0, openKey='null', openid='null', cardNum='null', cardPwd='null', timeLen=0, areaCode='null', uid='null', used=0, active=false}
+04-06 15:23:30.256 I/WifiSdk (16667): , ssid=, reason=, currnetTime=0] vendor WifiType{name='10001', nickname='北纬', serverUrl='null'} BEI_WEI appid:10001 cardNum:2fdf59f23d2a413c8f5986202768b83c
+04-06 15:23:30.256 D/WifiSdk (16667): [main] mWillConnectInfo:ConnectInfo{wifiType=WifiType{name='10001', nickname='北纬', serverUrl='null'} BEI_WEI, wifiType.name = 10001, appId='10001', ssid='ChinaNet', bssid='38:91:d5:91:26:10'}
+04-06 15:23:30.256 D/WifiSdk (16667): [main] onWifiStateChange: StartConnectToAp, None, WifiSdkListenerParams{msg='北纬正在向运营商请求ip地址', url='', ssid='ChinaNet', cardNum='2fdf59f23d2a413c8f5986202768b83c', wifiAppId='10001', bssid='38:91:d5:91:26:10', isPlug='yes', area='cn', shopUniversalData=ShopUniversalData{ShopId='', ShopUserId='', ApKey='', ApNum=''}}
+04-06 15:23:30.256 D/WifiSdk (16667): [main] 启动连接AP超时设置
+04-06 15:23:30.256 I/WifiSdk (16667): [main] sdkState from [Connected,ConnectionWifiLogin]
+04-06 15:23:30.256 I/WifiSdk (16667): [main] sdkState to [StartConnectWifi,ConnectionWaitWifiConnected]
+04-06 15:23:30.256 I/WifiSdk (16667): [main] ***setupTimeOut 1:30000
+04-06 15:23:30.256 D/WifiSdk (16667): [Thread-5637] 启动超时CheckTimeOut start1459927410264 isFinish :falsemType :1
+04-06 15:23:30.266 D/WifiSdk (16667): [main] msg.obj:onConnectFail openid: 2100048500256; ssid: ChinaNetmsg.obj:10099
+04-06 15:23:30.266 D/WifiSdk (16667): [main] MSG_CONNECT_FAIL:1
+04-06 15:23:30.266 D/WifiSdk (16667): [main] ===BaseConnector===onWifiStateChange===
+04-06 15:23:30.266 I/WifiSdk (16667): [main] WifiConnectorListener:ConnectFail detailState GetCardFailNetworkError
+04-06 15:23:30.266 I/WifiSdk (16667): [main] WifiConnectorListener:params.toString():WifiConnectorListenerParams [msg=从服务器取卡失败:10099, errorCode=onConnectFail openid: 2100048500256; ssid: ChinaNet, usedCard=CardDetail{expire=0, openKey='null', openid='null', cardNum='null', cardPwd='null', timeLen=0, areaCode='null', uid='null', used=0, active=false}
+04-06 15:23:30.266 I/WifiSdk (16667): , ssid=, reason=, currnetTime=0] vendor WifiType{name='10001', nickname='北纬', serverUrl='null'} BEI_WEI appid:10001 cardNum:2fdf59f23d2a413c8f5986202768b83c
+04-06 15:23:30.266 D/WifiSdk (16667): [main] mWillConnectInfo:ConnectInfo{wifiType=WifiType{name='10001', nickname='北纬', serverUrl='null'} BEI_WEI, wifiType.name = 10001, appId='10001', ssid='ChinaNet', bssid='38:91:d5:91:26:10'}
+04-06 15:23:30.266 D/WifiSdk (16667): [main] onWifiStateChange: ConnectFail, GetCardFailNetworkError, WifiSdkListenerParams{msg='从服务器取卡失败:10099', url='', ssid='ChinaNet', cardNum='2fdf59f23d2a413c8f5986202768b83c', wifiAppId='10001', bssid='38:91:d5:91:26:10', isPlug='yes', area='cn', shopUniversalData=ShopUniversalData{ShopId='', ShopUserId='', ApKey='', ApNum=''}}
+04-06 15:23:30.266 I/WifiSdk (16667): [main] sdkState from [StartConnectWifi,ConnectionWaitWifiConnected]
+04-06 15:23:30.276 I/WifiSdk (16667): [main] sdkState to [Idle,None]
+04-06 15:23:30.276 D/WifiSdk (16667): [main] 鉴权失败===========记录埋点 :ConnectInfo{wifiType=WifiType{name='10001', nickname='北纬', serverUrl='null'} BEI_WEI, wifiType.name = 10001, appId='10001', ssid='ChinaNet', bssid='38:91:d5:91:26:10'}
+04-06 15:23:30.456 D/WifiSdk (16667): [Thread-5637] 启动超时CheckTimeOut start1459927410264 isFinish :true
+04-06 15:23:30.536 D/WifiSdk (16667): [pool-4-thread-1] WifiSdk setJessionId()2741aee1cb104b3597c9a551fffb41b3
+04-06 15:23:30.546 I/WifiSdk (16667): [pool-4-thread-1] isUserLogin:true
+04-06 15:23:30.546 D/WifiSdk (16667): [pool-4-thread-1] removestartOrLoginAppTimeOutRunnable
+04-06 15:23:30.546 D/WifiSdk (16667): [main] 开始请求服务器获取portal脚本 jessionId 2741aee1cb104b3597c9a551fffb41b3 String.valueOf(updateTime) 1458926395000
+04-06 15:23:30.546 I/WifiSdk (16667): [pool-4-thread-1] WifiSdk setSecurityKey() : MecPWYEDY3vQJI4H2FsdFUSe
+04-06 15:23:30.946 D/WifiSdk (16667): [main] getProvidersName getNetworkCountryIso:cn
+04-06 15:23:30.956 D/WifiSdk (16667): [main] getProvidersName getNetworkCountryIso:cn
+04-06 15:23:30.986 D/WifiSdk (16667): [main] getProvidersName getNetworkCountryIso:cn
+04-06 15:23:30.986 D/WifiSdk (16667): [main] getProvidersName getNetworkCountryIso:cn
+04-06 15:23:31.026 D/WifiSdk (16667): [main] getProvidersName getNetworkCountryIso:cn
+04-06 15:23:31.046 I/WifiSdk (16667): [main] NetEventHandler checkApByCache 还没到时间 , 剩余 : 8730ms
+04-06 15:23:31.046 D/WifiSdk (16667): [main] onWifiStateChange: WifiScan, None, WifiSdkListenerParams{msg='WiFi扫描', url='', ssid='ChinaNet', cardNum='2fdf59f23d2a413c8f5986202768b83c', wifiAppId='10001', bssid='38:91:d5:91:26:10', isPlug='yes', area='cn', shopUniversalData=ShopUniversalData{ShopId='', ShopUserId='', ApKey='', ApNum=''}}
+04-06 15:23:31.046 I/WifiSdk (16667): [main] =======onReceive======= action android.net.wifi.SCAN_RESULTS errorCode -1
+0
